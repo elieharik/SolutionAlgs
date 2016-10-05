@@ -1,5 +1,5 @@
 """
-O(1) Time | O(n) Space  worst case; 80th percentile Python perf. 
+O(1) Time | O(n) Space  worst case; 80th percentile Python perf.
 """
 
 class MinWithCount(object):
@@ -73,17 +73,17 @@ class MinStack(object):
         return self.minStackWithCount[-1].min
 
 
-obj = MinStack()
-obj.push(3)
-obj.push(2)
-obj.push(1)
-print(obj.getMin())
-obj.push(1)
-print(obj.top())
-print(obj.pop())
-print(obj.getMin())
-print(obj.pop())
-print(obj.getMin())
+# obj = MinStack()
+# obj.push(3)
+# obj.push(2)
+# obj.push(1)
+# print(obj.getMin())
+# obj.push(1)
+# print(obj.top())
+# print(obj.pop())
+# print(obj.getMin())
+# print(obj.pop())
+# print(obj.getMin())
 
 
 # Your MinStack object will be instantiated and called as such:
